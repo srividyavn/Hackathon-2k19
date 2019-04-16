@@ -1,0 +1,15 @@
+
+
+<div style="text-align:center">
+  <div>
+    <p>{{seconds}}</p>
+    <webcam [trigger]="triggerObservable" (imageCapture)="handleImage($event)"></webcam>
+    <br/>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button mat-flat-button color="primary" mdbBtn type="button" class="waves-light" mdbWavesEffect (click)="triggerSnapshot();">Take Snapshot</button>
+      <button mat-flat-button color="primary"mdbBtn type="button" class="waves-light" mdbWavesEffect (click)="openUploadDialog()">Upload From Device</button>
+    </div>
+  </div>
+</div>
+
+
