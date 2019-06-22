@@ -22,7 +22,7 @@ amount_pattern = re.compile('^[0-9]+\.[0-9]+$')
 headers = {
     # Request headers
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': 'd3808bcca1604a07b5b42a51a28fa9ff',
+    'Ocp-Apim-Subscription-Key': '',
 }
 
 params = urllib.parse.urlencode({
